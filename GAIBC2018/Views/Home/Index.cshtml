@@ -1,0 +1,714 @@
+﻿@{
+    ViewData["Title"] = "Global AI Bootcamp Singapore 2018";
+}
+
+@*<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Learn how to build ASP.NET apps that can run anywhere.
+                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        There are powerful new features in Visual Studio for building modern web apps.
+                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/banner3.svg" alt="Microsoft Azure" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
+                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Application uses</h2>
+            <ul>
+                <li>Sample pages using ASP.NET Core MVC</li>
+                <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>How to</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Overview</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2>Run &amp; Deploy</h2>
+            <ul>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
+                <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
+            </ul>
+        </div>
+    </div>*@
+
+<!--cover section slider -->
+<section id="home" class="home-cover">
+    <div class="cover_slider owl-carousel owl-theme">
+        <div class="cover_item" style="background: url('img/bg/bg-singapore.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                The Most Exciting
+                                <br />Global AI Bootcamp in
+                            </h2>
+                            <strong class="cover-xl-text">Singapore</strong>
+                            <p class="cover-date">
+                                15th December 2018
+                            </p>
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-12">
+                                    <div class="countdown"></div>
+                                    <h4 class="mb30 text-center color-light">to Global AI Bootcamp SG</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary btn-rounded font-bigger">
+                                <b>STAY TUNED!</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="cover_item" style="background: url('img/bg/slider.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-left">
+                                <h2 class="cover-title">
+                                    You will not want to miss The Coolest
+                                </h2>
+                                <strong class="cover-xl-text">Global AI Bootcamp SG</strong>
+                                <p class="cover-date">
+                                    12-14 February 2018  - Los Angeles, CA.
+                                </p>
+                                <a href="#" class=" btn btn-primary btn-rounded">
+                                    Buy Tickets Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cover_item" style="background: url('img/bg/slider.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-center">
+                                <h2 class="cover-title">
+                                    Prepare yourself for the
+                                </h2>
+                                <strong class="cover-xl-text">conference</strong>
+                                <p class="cover-date">
+                                    12-14 February 2018  - Los Angeles, CA.
+                                </p>
+                                <a href="#" class=" btn btn-primary btn-rounded">
+                                    Buy Tickets Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+    </div>
+    @*<div class="cover_nav">
+            <ul class="cover_dots">
+                <li class="active" data="0"><span>1</span></li>
+                <li data="1"><span>2</span></li>
+                <li data="2"><span>3</span></li>
+            </ul>
+        </div>*@
+</section>
+<!--cover section slider end -->
+<!--event info -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-calendar-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            DATE
+                        </h5>
+                        <p>
+                            15th December 2018
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-location-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            location
+                        </h5>
+                        <p>
+                            Singapore
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-person-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            Local
+                        </h5>
+                        <p>
+                            Tech Leaders & Enthuasists
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-pricetag-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            Free
+                        </h5>
+                        <p>
+                            Registration
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event info end -->
+<!--event countdown -->
+<section class="bg-img pt100 pb100" style="background-image: url('img/bg/bg-img.png');">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
+                <div class="countdown"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event count down end-->
+<!--about the event -->
+<section class="pt100 pb100" id="about">
+    <div class="container">
+        <div class="section_title">
+            <h3 class="title">
+                <a id="about"></a>About the event
+            </h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    In conjunction with Global AI Bootcamp, the Global AI Bootcamp SG is an event organized by Singapore local communities that are passionate about Artificial Intelligence on the Microsoft stack.
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    The event is the perfect balance between quality content, awesome lectures, getting your hands dirty and learn & share with other community members.
+                </p>
+            </div>
+        </div>
+
+        <!--event features-->
+        <div class="row justify-content-center mt30">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-mic"></i>
+                    <div class="content">
+                        <h4>Keynotes</h4>
+                        <p>
+                            @*Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.*@
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-rocket"></i>
+                    <div class="content">
+                        <h4>Hands On Lab</h4>
+                        <p>
+                            @*Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.*@
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-bullhorn"></i>
+                    <div class="content">
+                        <h4>Latest Tech Sharing</h4>
+                        <p>
+                            @*Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.*@
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-clock"></i>
+                    <div class="content">
+                        <h4>Fun & Social</h4>
+                        <p>
+                            @*Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.*@
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--event features end-->
+    </div>
+</section>
+<!--about the event end -->
+<!--event calender-->
+<section class="pt100 pb100" id="agenda">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                <a id="agenda"></a>agenda
+            </h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="table-responsive">
+            <table class="event_calender table">
+                <thead class="event_title">
+                    <tr>
+                        <th>
+                            <i class="ion-ios-calendar-outline"></i>
+                            <span>Topics</span>
+                        </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5">Stay Tuned!</td>
+                    </tr>
+                </tbody>
+                @*<tbody>
+                        <tr>
+                            <td>
+                                <img src="~/img/cleander/c1.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                14
+                                <span>February</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Conference in Amsterdam</h5>
+                                    <h6>08 AM - 04 PM</h6>
+                                    <p>Speaker: Daniel Hill</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                            </td>
+                            <td class="buy_link">
+                                <a href="#">buy now</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="~/img/cleander/c2.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                18
+                                <span>February</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Conference in Amsterdam</h5>
+                                    <h6>08 AM - 04 PM</h6>
+                                    <p>Speaker: Daniel Hill</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                            </td>
+                            <td class="buy_link">
+                                <a href="#">buy now</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="~/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                22
+                                <span>February</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Conference in Amsterdam</h5>
+                                    <h6>08 AM - 04 PM</h6>
+                                    <p>Speaker: Daniel Hill</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                            </td>
+                            <td class="buy_link">
+                                <a href="#">buy now</a>
+                            </td>
+                        </tr>
+                    </tbody>*@
+            </table>
+        </div>
+    </div>
+</section>
+<!--event calender end -->
+<!--speaker section-->
+<section class="pt100 pb100" id="speakers">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                <a id="speakers"></a>our speakers
+            </h3>
+        </div>
+    </div>
+    <div class="row justify-content-center no-gutters">
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/mvp_cheah_eng_teong.jpg" alt="Cheah Eng Teong">
+                    <div class="info_box">
+                        <h5 class="name">Cheah Eng Teong</h5>
+                        <p class="position">Microsoft MVP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/mvp_cheah_eng_soon.jpg" alt="Cheah Eng Soon">
+                    <div class="info_box">
+                        <h5 class="name">Cheah Eng Soon</h5>
+                        <p class="position">Microsoft MVP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/mvp_marvin_heng.jpg" alt="Marvin Heng">
+                    <div class="info_box">
+                        <h5 class="name">Marvin Heng</h5>
+                        <p class="position">Microsoft MVP</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>*@
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/empty_potrait.jpg" alt="Speaker 3">
+                    <div class="info_box">
+                        <h5 class="name">Speaker 3</h5>
+                        <p class="position">Secret!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/empty_potrait.jpg" alt="Speaker 4">
+                    <div class="info_box">
+                        <h5 class="name">Speaker 4</h5>
+                        <p class="position">Secret!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/s5.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Jessica Black</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/s6.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/s7.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Duncan Stan</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="~/img/speakers/s8.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+    </div>
+</section>
+<!--speaker section end -->
+@*<!--Price section-->
+    <section class="pb100">
+        <div class="container">
+            <div class="section_title mb50">
+                <h3 class="title">
+                    Pricing table
+                </h3>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12">
+                    <div class="price_box active">
+                        <div class="price_highlight">
+                            recommended
+                        </div>
+                        <div class="price_header">
+                            <h4>
+                                Early Bird
+                            </h4>
+                            <h6>
+                                For the fast ones
+                            </h6>
+                        </div>
+                        <div class="price_tag">
+                            65 <sup>$</sup>
+                        </div>
+                        <div class="price_features">
+                            <ul>
+                                <li>
+                                    Early Entrance
+                                </li>
+                                <li>
+                                    Front seat
+                                </li>
+                                <li>
+                                    Complementary Drinks
+                                </li>
+                                <li>
+                                    Promo Gift
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="price_box">
+                        <div class="price_header">
+                            <h4>
+                                Start up
+                            </h4>
+                            <h6>
+                                For the begginers
+                            </h6>
+                        </div>
+                        <div class="price_tag">
+                            85 <sup>$</sup>
+                        </div>
+                        <div class="price_features">
+                            <ul>
+                                <li>
+                                    Early Entrance
+                                </li>
+                                <li>
+                                    Front seat
+                                </li>
+                                <li>
+                                    Complementary Drinks
+                                </li>
+                                <li>
+                                    Promo Gift
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="price_box">
+                        <div class="price_header">
+                            <h4>
+                                Corporate
+                            </h4>
+                            <h6>
+                                For the business
+                            </h6>
+                        </div>
+                        <div class="price_tag">
+                            95 <sup>$</sup>
+                        </div>
+                        <div class="price_features">
+                            <ul>
+                                <li>
+                                    Early Entrance
+                                </li>
+                                <li>
+                                    Front seat
+                                </li>
+                                <li>
+                                    Complementary Drinks
+                                </li>
+                                <li>
+                                    Promo Gift
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--price section end -->*@
+<!--brands section -->
+<section class="bg-gray pt100 pb100" id="sponsors">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                <a id="sponsors"></a>our sponsors
+            </h3>
+        </div>
+        <div class="brand_carousel owl-carousel">
+            <div class="brand_item text-center">
+                <img src="~/img/brands/microsoft-logo.png" alt="Microsoft">
+            </div>
+            <div class="brand_item text-center">
+                <img src="~/img/brands/mvp-logo.png" alt="Microsoft MVP">
+            </div>
+            <div class="brand_item text-center">
+                <img src="~/img/brands/microsoft_ai_school_logo.png" alt="Microsoft AI School">
+            </div>
+            @*<div class="brand_item text-center">
+            <img src="~/img/brands/b3.png" alt="brand">
+        </div>
+        <div class="brand_item text-center">
+            <img src="~/img/brands/b4.png" alt="brand">
+        </div>
+        <div class="brand_item text-center">
+            <img src="~/img/brands/b5.png" alt="brand">
+        </div>*@
+        </div>
+    </div>
+</section>
+<!--brands section end-->
+<!--get tickets section -->
+@*<section class="bg-img pt100 pb100" style="background-image: url('img/bg/tickets.png');">
+        <div class="container">
+            <div class="section_title mb30">
+                <h3 class="title color-light">
+                    GEt your tikets
+                </h3>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-9 text-md-left text-center color-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                </div>
+                <div class="col-md-3 text-md-right text-center">
+                    <a href="#" class="btn btn-primary btn-rounded mt30">buy now</a>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<!--get tickets section end-->
