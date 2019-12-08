@@ -3229,3 +3229,7 @@ section {
 .font-bigger {
     font-size:larger;
 }
+
+.session_title{
+    color : #000 !important;
+}
